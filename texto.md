@@ -18,3 +18,7 @@
 
 ## Listado de la configuración:
 `git config --list`
+
+# Los tres estados de Git
+
+![Imagen de las operaciones locales](https://www.uco.es/aulasoftwarelibre/curso-de-git/images/git-estados.png)
