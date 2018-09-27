@@ -129,53 +129,6 @@ git add .
 git commit -m <"mensaje">
 git push origin <nombre_branch>
 ~~~
-1. Cambios en el repositorio local
-2. Commit de los cambios
-3. Añadir cambios a repositorio remoto
-
-
-#### **REMOTO -> LOCAL**
-* Sincronización y unión
-    ~~~
-    git fetch origin
-    git merge origin/master
-    ~~~
-* En un sólo paso
-    ~~~
-    git pull
-    ~~~
-
-### 4.Operaciones con branches remotos
-* Creación
-
-    1. Crear branch local
-    2. Hacer cambios en dicho branch
-    3. Hacer commit
-    4. Copiar el branch al repositorio remoto
-        ~~~
-        git push -u origin branch_remoto
-        ~~~
-
-* Copia
-    ~~~
-    git checkout -b local remoto
-    ~~~
-	
-* Eliminación
-    ~~~
-    git push origin -- delete branch_remoto
-    ~~~
-### 5. Ejemplo de procedimiento normal (remote)
-**Creamos un repositorio vacío y lo enlazamos con un repositorio remoto:**
-~~~
-git init
-git remote add origin <url>
-git pull
-git fetch origin
-git merge origin/master
-~~~
-**Editamos los archivos, etc. y guardamos los cambios en el repositorio remoto:**
-~~~
 git add .
 git commit -m <"mensaje">
 git push origin master
