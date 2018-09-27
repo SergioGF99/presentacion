@@ -10,7 +10,7 @@
 ## Correo electrónico:
 `git config --global user.email i72lumav@uco.es`
 
-##Editor de texto:
+## Editor de texto:
 `git config --global core.editor "gedit"`
 
 ## Color de la interfaz:
