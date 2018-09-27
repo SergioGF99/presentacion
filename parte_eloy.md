@@ -1,5 +1,5 @@
 ## **USO DE GIT CON GITHUB**
-![GitHub logo](https://assets-cdn.github.com/images/modules/open_graph/github-mark.png)
+![GitHub logo](https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png)
 
 ### 1.Qué es Github
 
