@@ -32,8 +32,8 @@ posteriormente son integradas a la linea principal.
 `git branch -m nonbre_antiguo nombre_nuevo`
 
 ### Eliminar ramas:
-`git branch -d nombre_rama`
-`git branch -D nombre_rama`
+`git branch -d nombre_stash`                                      
+`git branch -D nombre_stash`	
 
 ### Integrar ramas a la actual:
 `git merge nombre_rama`
